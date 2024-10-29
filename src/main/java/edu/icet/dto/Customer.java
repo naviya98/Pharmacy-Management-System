@@ -1,9 +1,5 @@
-package edu.icet.entity;
+package edu.icet.dto;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,17 +9,13 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@Entity
 
-public class CustomerEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class Customer {
     private Integer id;
     private String name;
     private String nic;
     private String gender;
     private String address;
-    private String ccontact;
+    private String contact;
     private String email;
-
 }

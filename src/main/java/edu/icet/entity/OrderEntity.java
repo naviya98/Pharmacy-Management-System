@@ -17,8 +17,7 @@ import lombok.ToString;
 
 public class OrderEntity {
     @Id
-    @GeneratedValue(Stratergy = GenerationType.IDENTITY)
-
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String date;
     private String total;

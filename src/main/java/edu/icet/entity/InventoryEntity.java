@@ -9,20 +9,18 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import java.time.LocalDate;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @Entity
 
-public class PaymentEntity {
+public class InventoryEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private LocalDate date;
-    private String amount;
-    private Integer orderId;
-    private String method;
+    private Integer medicineId;
+    private String qty;
+    private Integer supplierId;
+    private String receivedDate;
 }
