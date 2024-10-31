@@ -18,12 +18,12 @@ import lombok.ToString;
 public class CustomerEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-    private String name;
+    private Integer customerId;
+    private String firstName;
+    private String lastName;
     private String nic;
     private String gender;
     private String address;
-    private String ccontact;
+    private String contact;
     private String email;
-
 }
