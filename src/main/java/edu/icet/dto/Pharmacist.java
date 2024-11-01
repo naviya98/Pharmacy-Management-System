@@ -10,7 +10,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class Pharmacist {
-    private Integer id;
+    private Integer pharmacistId;
     private String name;
     private String licenNumber;
     private String contact;

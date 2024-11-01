@@ -20,7 +20,7 @@ import java.time.LocalDate;
 public class PaymentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer paymentId;
     private LocalDate date;
     private String amount;
     private Integer orderId;

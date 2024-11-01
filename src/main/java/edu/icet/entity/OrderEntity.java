@@ -18,10 +18,10 @@ import lombok.ToString;
 public class OrderEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer orderId;
     private String date;
     private String total;
-    private Integer cusId;
-    private Integer paharmacistId;
-    private String Status;
+    private Integer customerId;
+    private Integer pharmacistId;
+    private String status;
 }

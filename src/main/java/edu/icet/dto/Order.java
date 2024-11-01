@@ -10,7 +10,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class Order {
-    private Integer id;
+    private Integer orderId;
     private String date;
     private String total;
     private Integer cusId;

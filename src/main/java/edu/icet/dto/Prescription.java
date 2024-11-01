@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 
 public class Prescription {
-    private Integer id;
+    private Integer prescriptionId;
     private String issueDate;
     private String expireData;
     private String doctorName;

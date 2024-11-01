@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @ToString
 public class Payment {
-    private Integer id;
+    private Integer paymentId;
     private LocalDate date;
     private String amount;
     private Integer orderId;

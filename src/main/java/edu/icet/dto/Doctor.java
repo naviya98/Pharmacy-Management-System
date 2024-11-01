@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 
 public class Doctor {
-    private Integer id;
+    private Integer doctorId;
     private String name;
     private String specialization;
     private String contact;

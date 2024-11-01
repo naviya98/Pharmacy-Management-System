@@ -17,7 +17,7 @@ import lombok.ToString;
 public class SupplierEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer supplierId;
     private String name;
     private String address;
     private String contact;

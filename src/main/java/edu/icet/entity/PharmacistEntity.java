@@ -18,7 +18,7 @@ import lombok.ToString;
 public class PharmacistEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer pharmacistId;
     private String name;
     private String licenNumber;
     private String contact;
